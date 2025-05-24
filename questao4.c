@@ -8,7 +8,7 @@ int main()
       printf ("Digite um numero \n");
       scanf ("%d", &num);
       
-      for (i=0; i<=num; i++)
+      for (i=0; i<num; i++)
       {
           soma = soma + i;
       }
