@@ -5,7 +5,7 @@ main()
 	int i, indicador = 1, DENimpar = 1;
 	float soma = 0.0;
 	
-	for (i=0; i<20; i++)
+	for (i=0; i<=20; i++)
 	{
 		if (indicador == 1)
 		{
