@@ -6,7 +6,7 @@ main()
 	char nome[50];
 	int genero=2, i=0;
 	
-	for (i=0; i<=50; i++)
+	for (i=0; i<3; i++)
 	{
 		printf ("Digite seu nome \n");
 		scanf ("%s", nome);
@@ -37,24 +37,26 @@ main()
 			genero =2;
 		}
 		
+			
 		if (altura>maior || altura==maior)
 		{
+		    if (maior == 0){
+                  
+                maior = altura;
+                menor = altura;   
+                  
+            }	
 			maior = altura;
 		}
 		
-		if (altura<maior && altura>menor)
-		{
-			medio = altura;
-		}
-		
-		else
+	    if(menor > altura)
 		{
 			menor = altura;
 		}
 	}
 	mediaMULHERES = altMULHERES/contMULHERES;
 	mediaTURMA = altTURMA/contTURMA;
-	printf ("A quantidade de alunos da turma e de %d \n", contTURMA);
+	printf ("A quantidade de alunos da turma e de %f \n", contTURMA);
 	printf ("Maior altura = %f \n", maior);
 	printf ("Menor altura = %f \n", menor);
 	printf ("Media de altura da turma = %f \n", mediaTURMA);
