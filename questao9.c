@@ -6,7 +6,7 @@ main()
 	char nome[50];
 	int genero=2, i=0;
 	
-	for (i=0; i<50; i++)
+	for (i=0; i<=50; i++)
 	{
 		printf ("Digite seu nome \n");
 		scanf ("%s", nome);
