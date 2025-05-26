@@ -45,7 +45,7 @@ main()
 	else if (b>=c)
 	{
 		maior = b;
-		if (a>=c)
+		if (c>=a)
 		{
 			medio = a;
 			menor = c;
