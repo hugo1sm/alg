@@ -4,7 +4,7 @@
 main()
 {
 	
-	int numero, soma, i;
+	int numero, soma=0, i;
 	printf ("Digite um numero \n");
 	scanf ("%d", &numero);
 	
